@@ -6,7 +6,6 @@
 //     console.log("s")
 //     console.log("h")
 // }
- 
 // sayMyName()
 
 // function addTwo(n1, n2) // definition with parameters
@@ -26,16 +25,11 @@ const result = addTwo(56,4) //calling with args
 
 function loginUserMessage(username)
 {
-    if(username === undefined)
-    {
-        console.log("try again")
-        r
+    if(!username){
+        console.log("try again") 
     }
-    return `${username} just logged in`
+     return `${username} just logged in`
 }
-
-// let p = loginUserMessage("Yash")
-
 
 let p = loginUserMessage()
 console.log(p)
